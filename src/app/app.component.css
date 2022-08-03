@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing : border-box;
+    /* background : red; */
+    /* border-block : border-box; */
+}
+
+.graphs{
+	display : grid;
+	/* gap : 5em; */
+	grid-template-areas : 'line line ' 'pie bar' ;
+}
+
+.line {
+	grid-area : line;
+}
+
+.bar {
+	grid-area : bar;
+}
+
+.pie {
+	grid-area : pie;
+}
